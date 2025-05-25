@@ -7,6 +7,9 @@ Data Source: Sales Transactions Dataset
 Dashboard Theme: Blue + Monochrome Accent
 ```
 
+![Screenshot](Screenshot 2025-05-25 151605.png)
+
+
 ## 📊 Overview
 
 ```text
