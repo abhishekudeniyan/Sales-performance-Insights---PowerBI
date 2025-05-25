@@ -70,10 +70,10 @@ Quarter Filter:
 ## 🎯 Insights
 
 ```yaml
-- California leads in total sales across all categories.
-- Furniture contributes the most to overall profit.
-- Technology has the least profit share despite presence in all states.
-- Sales increase significantly during year-end (Q4).
+ California leads in total sales across all categories.
+ Furniture contributes the most to overall profit.
+ Technology has the least profit share despite presence in all states.
+ Sales increase significantly during year-end (Q4).
 ```
 
 ## 📌 Purpose
@@ -89,8 +89,7 @@ This report helps:
 ---
 
 ```text
-Author: [Your Name or Team]
-Created: May 2025
+Author:Abhishek Udeniyan
 Tool: Power BI Desktop
 File: Screenshot 2025-05-25
 ```
