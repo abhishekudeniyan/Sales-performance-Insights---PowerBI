@@ -1,98 +1,117 @@
-# 📘 SALES PERFORMANCE REPORT - README
 
-```yaml
-Project Title: Sales Performance Report
-Tool Used: Microsoft Power BI
-Data Source: Sales Transactions Dataset
-Dashboard Theme: Blue + Monochrome Accent
-```
+# Sales Performance Dashboard
 
-![Screenshot](Screenshot 2025-05-25 151605.png)
-
-
-## 📊 Overview
-
-```text
-This Power BI dashboard provides an interactive visualization of sales performance.
-It includes metrics such as total sales, total profit, customer-level transactions,
-sales trends by month, category-wise breakdowns, and geographic distribution.
-```
-
-## 🧾 KPIs (Key Performance Indicators)
-
-```yaml
-Total Sales:    $2.30M
-Total Profit:   $286.4K
-```
-
-## 🎚️ Slicer Filters
-
-```yaml
-Year Filter:
-  - 2018
-  - 2019
-  - 2020
-  - 2021
-Quarter Filter:
-  - Q1
-  - Q2
-  - Q3
-  - Q4
-```
-
-## 📌 Dashboard Components
-
-```yaml
-1. Total Sales by State and Category:
-   - Chart Type: Stacked Bar
-   - Categories: Furniture, Office Supplies, Technology
-   - Top States: California, New York, Texas
-
-2. Customer Transaction Table:
-   - Fields: Customer_Name, State, Sub_Category, Product_Name
-   - Example: Aaron Bergman, Oklahoma, Bookcases, Samsung Convoy 3
-
-3. Total Sales by Month and Year:
-   - Chart Type: Multi-line chart
-   - Trend: Peak sales in November and December
-   - Data covers: 2018–2022
-
-4. Total Sales by Quantity and Category:
-   - Chart Type: Stacked Column
-   - X-axis: Quantity (0–12+)
-   - Y-axis: Total Sales (up to 0.5M)
-
-5. Total Profit by Category:
-   - Chart Type: Pie Chart
-   - Profit Share:
-     * Furniture: $145K (50.7%)
-     * Office Supplies: $122K (42.7%)
-     * Technology: $18.45K (6.44%)
-```
-
-## 🎯 Insights
-
-```yaml
- California leads in total sales across all categories.
- Furniture contributes the most to overall profit.
- Technology has the least profit share despite presence in all states.
- Sales increase significantly during year-end (Q4).
-```
-
-## 📌 Purpose
-
-```text
-This report helps:
-✔️ Analyze geographical and category-wise sales performance.
-✔️ Track monthly sales patterns over multiple years.
-✔️ Understand profit distribution across product segments.
-✔️ Enable data-driven business decisions and planning.
-```
+### 📊 Dashboard Link: [Insert your published Power BI link here]
 
 ---
 
-```text
-Author:Abhishek Udeniyan
-Tool: Power BI Desktop
-File: Screenshot 2025-05-25
-```
+## 🧩 Problem Statement
+
+The **Sales Performance Dashboard** helps businesses monitor and evaluate their overall sales and profit performance. This dashboard provides insights into:
+
+- Total revenue and profit
+- Performance by state and product category
+- Monthly and yearly sales trends
+- Profitability by product category
+- Customer- and product-level transaction analysis
+
+It empowers decision-makers to take data-driven actions for boosting sales and improving underperforming areas.
+
+---
+
+## 🛠️ Steps Followed
+
+1. **Data Import**: Loaded sales data into Power BI Desktop.
+2. **Data Cleaning**:
+   - Removed nulls and duplicates
+   - Corrected data types
+   - Extracted `Year`, `Month`, and `Quarter` from the date column
+3. **Measure Creation (DAX)**:
+   ```DAX
+   Total Sales = SUM(Sales[Revenue])
+   Total Profit = SUM(Sales[Profit])
+   ```
+4. **KPI Cards**:
+   - Displayed `Total Sales` and `Total Profit` using card visuals
+5. **Visualizations**:
+   - **Bar Chart**: Total Sales by State and Category
+   - **Line Chart**: Sales Trends by Month and Year
+   - **Stacked Column Chart**: Sales by Quantity and Category
+   - **Pie Chart**: Profit Distribution by Category
+   - **Table**: Customer-level sales and product information
+6. **Slicers**:
+   - Year
+   - Quarter
+7. **Styling**:
+   - Applied a clean layout with a professional black-and-white theme
+   - Added headers, section titles, and slicers for interactivity
+8. **Publish**: Report was deployed to Power BI Service for business use.
+
+---
+
+## 📈 Insights from the Dashboard
+
+### 🔹 KPI Highlights
+
+- **Total Sales**: `$2.30M`
+- **Total Profit**: `$286.4K`
+
+---
+
+### 🔹 Top Performing States
+
+- **California**
+- **New York**
+- **Texas**
+- **Washington**
+
+These states lead in total sales.
+
+---
+
+### 🔹 Profit by Category
+
+| Category        | Profit     | % Contribution |
+|----------------|------------|----------------|
+| Furniture       | $145K      | 50.7%          |
+| Office Supplies | $122K      | 42.7%          |
+| Technology      | $18.4K     | 6.4%           |
+
+> Furniture brings the highest profit, while Technology has the lowest.
+
+---
+
+### 🔹 Monthly Sales Trend
+
+- Sales peak in **December**
+- Lower sales in **February**
+- Steady growth observed from **Q2 onwards**
+
+---
+
+### 🔹 Sales by Quantity
+
+- Sales spike between quantity levels **3 to 6**
+- Most sales volume seen in **Furniture** and **Office Supplies**
+
+---
+
+### 🔹 Customer-Product Mapping
+
+- Table helps identify top products and regions per customer
+- Supports personalized marketing and sales recommendations
+
+---
+
+## 📸 Dashboard Snapshot
+
+![Sales Dashboard](./Screenshot%202025-05-25%20151605.png)
+
+---
+
+## ✅ Conclusion
+
+This interactive dashboard serves as a powerful tool for sales strategy and reporting. By monitoring KPIs, identifying top regions and products, and drilling down to customer transactions, businesses can drive efficiency and growth.
+
+> Made with ❤️ in Power BI.
+
