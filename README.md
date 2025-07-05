@@ -50,7 +50,11 @@ It empowers decision-makers to take data-driven actions for boosting sales and i
 ---
 
 ## 📈 Insights from the Dashboard
+## 📸 Dashboard Snapshot
 
+![Sales Dashboard](./Screenshot%202025-05-25%20151605.png)
+
+---
 ### 🔹 KPI Highlights
 
 - **Total Sales**: `$2.30M`
@@ -103,11 +107,7 @@ These states lead in total sales.
 
 ---
 
-## 📸 Dashboard Snapshot
 
-![Sales Dashboard](./Screenshot%202025-05-25%20151605.png)
-
----
 
 ## ✅ Conclusion
 
